@@ -1,5 +1,18 @@
 import classes from './Hero.module.css';
+import Button from './UI/Button';
 
-const Hero = () => {};
+const Hero = () => {
+  return (
+    <div className={classes.wrapper}>
+      <p className={classes['new-product']}>New Poduct</p>
+      <h2 className={classes.title}>XX99 Mark II HeadphoneS</h2>
+      <p className={classes.description}>
+        Experience natural, lifelike audio and exceptional build quality made
+        for the passionate music enthusiast.
+      </p>
+      <Button title='See Product' />
+    </div>
+  );
+};
 
 export default Hero;

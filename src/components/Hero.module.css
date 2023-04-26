@@ -1,0 +1,8 @@
+.wrapper {
+  background-image: url('/images/home/mobile/image-header.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 10.8rem 0 11.2rem;
+  text-align: center;
+  color: white;
+}
