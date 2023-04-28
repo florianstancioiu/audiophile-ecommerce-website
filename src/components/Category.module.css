@@ -1,0 +1,43 @@
+.wrapper {
+  padding: 0 2.4rem;
+  margin-bottom: 6.8rem;
+  text-align: center;
+  position: relative;
+}
+
+.inner-wrapper {
+  background-color: var(--clr-three);
+  border-radius: 0.8rem;
+  padding-bottom: 2.2rem;
+}
+
+.image {
+  position: absolute;
+  left: 50%;
+  top: -5rem;
+  transform: translate(-50%);
+}
+
+.title {
+  padding-top: 8.8rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  color: var(--clr-seven);
+  margin-bottom: 1.7rem;
+}
+
+.link span {
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.link img {
+  display: inline-block;
+  margin-left: 1.3rem;
+}
