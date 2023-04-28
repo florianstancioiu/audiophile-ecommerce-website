@@ -19,6 +19,14 @@ body {
   line-height: 2.5rem;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 4rem;
+  letter-spacing: 0.13rem;
+  text-transform: uppercase;
+}
+
 /* Box sizing rules */
 *,
 *::before,
