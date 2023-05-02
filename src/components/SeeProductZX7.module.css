@@ -1,0 +1,16 @@
+.wrapper {
+  padding: 0 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.inner-wrapper {
+  background-image: url('/images/home/mobile/zx7-speaker-bg.png');
+  background-size: cover;
+  padding: 10rem 2.4rem 10rem;
+  border-radius: 0.8rem;
+}
+
+.title {
+  color: var(--clr-seven);
+  margin-bottom: 3.2rem;
+}

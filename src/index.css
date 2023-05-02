@@ -27,6 +27,14 @@ h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
 /* Box sizing rules */
 *,
 *::before,

@@ -16,3 +16,9 @@
   color: var(--clr-six);
   background-color: var(--clr-seven);
 }
+
+.ternary {
+  background-color: transparent;
+  border: 2px solid var(--clr-seven);
+  color: var(--clr-seven);
+}
