@@ -10,3 +10,9 @@
   letter-spacing: 0.1rem;
   cursor: pointer;
 }
+
+.secondary {
+  font-weight: 700;
+  color: var(--clr-six);
+  background-color: var(--clr-seven);
+}
