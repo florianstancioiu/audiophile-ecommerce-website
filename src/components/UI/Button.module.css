@@ -21,4 +21,5 @@
   background-color: transparent;
   border: 2px solid var(--clr-seven);
   color: var(--clr-seven);
+  line-height: 1;
 }

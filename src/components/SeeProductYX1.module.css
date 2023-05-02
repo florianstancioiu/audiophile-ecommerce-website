@@ -1,0 +1,20 @@
+.wrapper {
+  padding: 0 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.image {
+  margin: 0 auto 2.4rem;
+  max-width: 100%;
+  border-radius: 0.8rem;
+}
+
+.inner-wrapper {
+  background-color: var(--clr-three);
+  padding: 4rem 2.4rem;
+  border-radius: 0.8rem;
+}
+
+.title {
+  margin-bottom: 3.2rem;
+}

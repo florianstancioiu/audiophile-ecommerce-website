@@ -6,6 +6,7 @@
   background-color: var(--clr-one);
   background-image: url('/images/home/mobile/zx9-speaker-bg.png');
   background-repeat: no-repeat;
+  background-position-x: center;
   border-radius: 0.8rem;
   padding-top: 5.5rem;
   padding-bottom: 5.5rem;
