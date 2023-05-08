@@ -1,0 +1,31 @@
+.wrapper {
+  padding: 0 2.4rem;
+  text-align: center;
+  margin-bottom: 12rem;
+}
+
+.title {
+  margin-bottom: 4rem;
+}
+
+.image-wrapper {
+  background-color: var(--clr-three);
+  border-radius: 0.8rem;
+  padding: 1.2rem 0;
+  margin-bottom: 3.2rem;
+}
+
+.image {
+  max-width: 8.8rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-title {
+  margin-bottom: 3.2rem;
+}
+
+.product {
+  margin-bottom: 5.6rem;
+}
