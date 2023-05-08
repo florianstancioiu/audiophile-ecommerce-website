@@ -5,6 +5,7 @@ import ProductFeatures from '../components/ProductFeatures';
 import ProductBox from '../components/ProductBox';
 import ProductPictures from '../components/ProductPictures';
 import MayAlsoLike from '../components/MayAlsoLike';
+import Categories from '../components/Categories';
 import BestAudioGear from '../components/BestAudioGear';
 import Footer from '../components/Footer';
 
@@ -44,15 +45,18 @@ const product = {
   pictures: [
     {
       id: 1,
-      link: '/images/product-pictures/xx59-headphones-1.png',
+      image: '/images/product-pictures/xx59-headphones-1.png',
+      altText: 'XX59 Headphones 1',
     },
     {
       id: 2,
-      link: '/images/product-pictures/xx59-headphones-2.png',
+      image: '/images/product-pictures/xx59-headphones-2.png',
+      altText: 'XX59 Headphones 2',
     },
     {
       id: 3,
-      link: '/images/product-pictures/xx59-headphones-3.png',
+      image: '/images/product-pictures/xx59-headphones-3.png',
+      altText: 'XX59 Headphones 3',
     },
   ],
   similarProducts: [
@@ -88,6 +92,7 @@ const Product = () => {
         <ProductBox box={product.box} />
         <ProductPictures pictures={product.pictures} />
         <MayAlsoLike products={product.similarProducts} />
+        <Categories />
         <BestAudioGear />
       </main>
       <Footer />
