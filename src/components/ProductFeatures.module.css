@@ -1,0 +1,16 @@
+.wrapper {
+  padding: 0 2.4rem;
+  margin-bottom: 8.8rem;
+}
+
+.title {
+  margin-bottom: 2.4rem;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: var(--clr-seven);
+  opacity: 0.5;
+}

@@ -1,0 +1,29 @@
+.wrapper {
+  padding: 0 2.4rem;
+  margin-bottom: 12rem;
+}
+
+.title {
+  margin-bottom: 2.4rem;
+}
+
+.item {
+  margin-bottom: 0.8rem;
+}
+
+.item-quantity {
+  display: inline-block;
+  margin-right: 2.4rem;
+  color: var(--clr-one);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.item-title {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: var(--clr-seven);
+  opacity: 0.5;
+}
