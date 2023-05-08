@@ -1,0 +1,47 @@
+.wrapper {
+  padding: 0 2.4rem;
+}
+
+.image-wrapper {
+  padding: 8rem 0;
+  background-color: var(--clr-three);
+  border-radius: 0.8rem;
+  margin-bottom: 4rem;
+}
+
+.image-wrapper img {
+  display: block;
+  margin: 0 auto;
+}
+
+.new-product {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  color: var(--clr-one);
+  margin-bottom: 2.4rem;
+}
+
+.title {
+  margin-bottom: 2.4rem;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: var(--clr-seven);
+  opacity: 0.5;
+  margin-bottom: 2.4rem;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.13rem;
+  text-transform: uppercase;
+  margin-bottom: 3.1rem;
+}
