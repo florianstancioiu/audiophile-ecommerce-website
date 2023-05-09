@@ -1,5 +1,7 @@
 .header {
   background-color: var(--clr-seven);
+  position: relative;
+  z-index: 5;
 }
 
 .inner-wrapper {
@@ -21,4 +23,9 @@
   height: 1px;
   background-color: var(--clr-six);
   opacity: 0.1;
+}
+
+.cart,
+.menu {
+  cursor: pointer;
 }

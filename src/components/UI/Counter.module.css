@@ -13,7 +13,7 @@
   display: inline-block;
   text-align: center;
   color: var(--clr-seven);
-  opacity: 0.25rem;
+  opacity: 0.25;
   user-select: none;
 }
 
@@ -27,4 +27,9 @@
   width: 3rem;
   display: inline-block;
   text-align: center;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.1rem;
+  color: var(--clr-seven);
 }
