@@ -5,6 +5,7 @@ import CartIcon from '../images/icon-cart.svg';
 import HamburgerIcon from '../images/icon-hamburger.svg';
 import LogoWhite from '../images/logo-white.svg';
 import Cart from './Cart';
+import ThankYouOrder from './ThankYouOrder';
 
 const Header = () => {
   const [showCart, setShowCart] = useState(false);
@@ -26,6 +27,7 @@ const Header = () => {
         />
       </div>
       {showCart && <Cart />}
+      <ThankYouOrder />
     </header>
   );
 };
