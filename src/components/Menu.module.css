@@ -1,0 +1,40 @@
+.wrapper {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 0;
+}
+
+.overlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: var(--clr-seven);
+  opacity: 0.4;
+  z-index: 4;
+}
+
+.menu {
+  background-color: var(--clr-six);
+  position: relative;
+  z-index: 5;
+  margin-top: 11.4rem;
+  padding: 3.2rem 2.8rem;
+  border-radius: 0 0 0.8rem 0.8rem;
+}
+
+.menu > div {
+  margin-bottom: 0;
+}
+
+.menu > div > div {
+  padding: 0;
+}
+
+.menu > div > div:last-child {
+  margin-bottom: 0;
+}
