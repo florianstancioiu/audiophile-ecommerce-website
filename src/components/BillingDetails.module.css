@@ -1,0 +1,13 @@
+.title {
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.928571px;
+  text-transform: uppercase;
+  color: var(--clr-one);
+  margin-bottom: 1.6rem;
+}
+
+.wrapper {
+  margin-bottom: 3.2rem;
+}

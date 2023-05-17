@@ -7,6 +7,8 @@
   --clr-six: #ffffff;
   --clr-seven: #000000;
   --clr-eight: #191919;
+  --clr-nine: #f2f2f2;
+  --clr-ten: #cfcfcf;
 }
 
 html {
@@ -43,6 +45,11 @@ h4 {
   line-height: 2.8rem;
   letter-spacing: 0.857143px;
   text-transform: uppercase;
+}
+
+.main {
+  display: grid;
+  background-color: var(--clr-nine);
 }
 
 /* Box sizing rules */

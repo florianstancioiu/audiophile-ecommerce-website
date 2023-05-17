@@ -1,0 +1,19 @@
+.wrapper label {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  letter-spacing: -0.214286px;
+  color: var(--clr-seven);
+  display: block;
+  margin-bottom: 0.9rem;
+}
+
+.wrapper input {
+  border: 1px solid var(--clr-ten);
+  width: 100%;
+  border-radius: 0.8rem;
+  height: 5.6rem;
+  line-height: 5.6rem;
+  padding: 0 2.4rem;
+  margin-bottom: 2.4rem;
+}
